@@ -1,9 +1,10 @@
 body {
-  margin: 0;
+  margin-top: 60px;
   padding: 0;
-  background-color: antiquewhite;
+  background-color: #ded9dd;
   color: #3a3846;
-  font-size: 10px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -15,10 +16,39 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
   display: inline;
+  padding: 2rem;
 }
 
-o {
+li.menu {
+  display: inline;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #3a3846;
+}
+
+.navigation a {
+  color: #DED9dd;
+}
+
+.navigation a:hover {
+  color: #BB8998;
+}
+
+p {
   font-family: 'Montserrat', sans-serif;
+}
+
+p::first-line {
+  color: #639a88;
+  text-transform: uppercase;
 }
 
 img {
@@ -29,4 +59,9 @@ img {
 
 li:nth-child(2) {
   padding: 2rem;
+}
+
+.float {
+  float: left;  
+  margin: 0;
 }
